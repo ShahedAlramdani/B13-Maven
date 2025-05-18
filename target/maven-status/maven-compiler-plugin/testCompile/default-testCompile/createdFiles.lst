@@ -1,0 +1,7 @@
+com\page\MenuPage.class
+com\runner\Runner.class
+com\page\JobTitlesPage.class
+com\page\AdminPage.class
+com\steps\JobTitlesStep.class
+utils\Hooks.class
+com\page\LoginPage.class

@@ -1,0 +1,708 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3723853500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin User navigates to NTK Login page \"https://ntkhr.noortecktraining.com/web/index.php/auth/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://ntkhr.noortecktraining.com/web/index.php/auth/login\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.steps.JobTitlesStep.navigateToNTK(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 327535500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Admin User provides credentials \"ntk-admin\" \"Password123@12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ntk-admin\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"Password123@12\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.steps.JobTitlesStep.enterUserCredentials(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78430000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Admin User clicks login button",
+            "match": {
+              "location": "com.steps.JobTitlesStep.clickLoginBtn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1218485100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Admin User navigates to \"Admin\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.steps.JobTitlesStep.navigateToPage(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1445139300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Admin User selects \"Job Titles\" from \"Job\" dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Job Titles\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Job\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.steps.JobTitlesStep.selectValueFromDropdown(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-05-17T01:07:57.150Z",
+        "line": 19,
+        "name": "Verify Add new Job Title Functionality",
+        "description": "",
+        "id": "job-titles-functionality;verify-add-new-job-title-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 358077900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Admin User clicks add button",
+            "match": {
+              "location": "com.steps.JobTitlesStep.clickAddBtn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4531758400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Admin User provides Job Title field values \"B13Cucumber44\" \"Java is fun\" \"More Homework\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"B13Cucumber44\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"Java is fun\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"More Homework\"",
+                  "offset": 73
+                }
+              ],
+              "location": "com.steps.JobTitlesStep.enterJobTitleFieldValues(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77294500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Admin User clicks save button",
+            "match": {
+              "location": "com.steps.JobTitlesStep.clickSaveBtn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5464426100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "System displays success message \"Successfully Saved\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Successfully Saved\"",
+                  "offset": 32
+                }
+              ],
+              "location": "com.steps.JobTitlesStep.verifySuccessMessage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3024753500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin User navigates to NTK Login page \"https://ntkhr.noortecktraining.com/web/index.php/auth/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://ntkhr.noortecktraining.com/web/index.php/auth/login\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.steps.JobTitlesStep.navigateToNTK(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 344913700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Admin User provides credentials \"ntk-admin\" \"Password123@12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ntk-admin\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"Password123@12\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.steps.JobTitlesStep.enterUserCredentials(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 640161700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Admin User clicks login button",
+            "match": {
+              "location": "com.steps.JobTitlesStep.clickLoginBtn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 599267900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Admin User navigates to \"Admin\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.steps.JobTitlesStep.navigateToPage(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1420446200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Admin User selects \"Job Titles\" from \"Job\" dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Job Titles\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Job\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.steps.JobTitlesStep.selectValueFromDropdown(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-05-17T01:08:14.449Z",
+        "line": 29,
+        "name": "Verify User cannot add duplicate job",
+        "description": "",
+        "id": "job-titles-functionality;verify-user-cannot-add-duplicate-job;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 342253300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Admin User clicks add button",
+            "match": {
+              "location": "com.steps.JobTitlesStep.clickAddBtn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4456323200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Admin User provides Job Title field values \"a\" \"\" \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"a\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 50
+                }
+              ],
+              "location": "com.steps.JobTitlesStep.enterJobTitleFieldValues(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()\u003d\u0027Already exists\u0027]\"}\n  (Session info: MicrosoftEdge\u003d136.0.3240.76)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027SHAHED-ALRAMDAN\u0027, ip: \u0027192.168.1.73\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002723.0.2\u0027\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCapabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 136.0.3240.76, fedcm:accounts: true, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:56874}, msedge: {msedgedriverVersion: 136.0.3240.76 (77e9ec69748f..., userDataDir: C:\\Users\\Shahe\\AppData\\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 36473cfe69a15ae612e036b1896dbc82\n*** Element info: {Using\u003dxpath, value\u003d//*[text()\u003d\u0027Already exists\u0027]}\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy17.getText(Unknown Source)\r\n\tat com.page.JobTitlesPage.getAlreadyExistText(JobTitlesPage.java:102)\r\n\tat com.steps.JobTitlesStep.verifyAlreadyExistsMessage(JobTitlesStep.java:121)\r\n\tat ✽.System displays error message under Job Titles field \"Already exists\"(file:///C:/Users/Shahe/eclipse-workspace/B13-Maven/src/test/resources/smoke/SmokeTest.feature:25)\r\n",
+              "duration": 10032723300,
+              "status": "failed"
+            },
+            "line": 25,
+            "name": "System displays error message under Job Titles field \"Already exists\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Already exists\"",
+                  "offset": 53
+                }
+              ],
+              "location": "com.steps.JobTitlesStep.verifyAlreadyExistsMessage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2995810200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin User navigates to NTK Login page \"https://ntkhr.noortecktraining.com/web/index.php/auth/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://ntkhr.noortecktraining.com/web/index.php/auth/login\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.steps.JobTitlesStep.navigateToNTK(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 350107800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Admin User provides credentials \"ntk-admin\" \"Password123@12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ntk-admin\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"Password123@12\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.steps.JobTitlesStep.enterUserCredentials(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77314900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Admin User clicks login button",
+            "match": {
+              "location": "com.steps.JobTitlesStep.clickLoginBtn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1166639200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Admin User navigates to \"Admin\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.steps.JobTitlesStep.navigateToPage(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1360992200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Admin User selects \"Job Titles\" from \"Job\" dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Job Titles\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Job\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.steps.JobTitlesStep.selectValueFromDropdown(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-05-17T01:08:35.326Z",
+        "line": 40,
+        "name": "Verify User can edit existing job",
+        "description": "",
+        "id": "job-titles-functionality;verify-user-can-edit-existing-job;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 565497800,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Admin User clicks edit icon 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 28
+                }
+              ],
+              "location": "com.steps.JobTitlesStep.clickEditIcon(java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4390034200,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Admin User provides Job Title field values \"B13XYZ444\" \"xyzDesc\" \"xyzNotes\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"B13XYZ444\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"xyzDesc\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"xyzNotes\"",
+                  "offset": 65
+                }
+              ],
+              "location": "com.steps.JobTitlesStep.enterJobTitleFieldValues(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53110000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Admin User clicks save button",
+            "match": {
+              "location": "com.steps.JobTitlesStep.clickSaveBtn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5394928800,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "System displays update message \"Successfully Updated\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Successfully Updated\"",
+                  "offset": 31
+                }
+              ],
+              "location": "com.steps.JobTitlesStep.verifyUpdateMessage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2873529000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin User navigates to NTK Login page \"https://ntkhr.noortecktraining.com/web/index.php/auth/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://ntkhr.noortecktraining.com/web/index.php/auth/login\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.steps.JobTitlesStep.navigateToNTK(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 361635000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Admin User provides credentials \"ntk-admin\" \"Password123@12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ntk-admin\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"Password123@12\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.steps.JobTitlesStep.enterUserCredentials(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 660190500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Admin User clicks login button",
+            "match": {
+              "location": "com.steps.JobTitlesStep.clickLoginBtn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 629023600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Admin User navigates to \"Admin\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.steps.JobTitlesStep.navigateToPage(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1437296000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Admin User selects \"Job Titles\" from \"Job\" dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Job Titles\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Job\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.steps.JobTitlesStep.selectValueFromDropdown(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-05-17T01:08:51.691Z",
+        "line": 50,
+        "name": "Verify User can delete existing job",
+        "description": "",
+        "id": "job-titles-functionality;verify-user-can-delete-existing-job;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 363589300,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Admin User clicks delete icon 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 30
+                }
+              ],
+              "location": "com.steps.JobTitlesStep.clickDeleteIcon(java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 80846600,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Admin User clicks Yes Delete button",
+            "match": {
+              "location": "com.steps.JobTitlesStep.clickYesDeleteBtn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5414130500,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "System displays delete message \"Successfully Deleted\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Successfully Deleted\"",
+                  "offset": 31
+                }
+              ],
+              "location": "com.steps.JobTitlesStep.verifyDeleteMessage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Job Titles Functionality",
+    "description": "",
+    "id": "job-titles-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/smoke/SmokeTest.feature",
+    "tags": []
+  }
+]
