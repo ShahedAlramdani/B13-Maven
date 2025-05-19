@@ -22,4 +22,6 @@ public class Runner {
 /** 
  * example of maven goal: 
  * clean -Dtest=Runner test
+ * 
+ * TEST 
  */
